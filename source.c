@@ -9,7 +9,7 @@ void prime_number_and_factorizing(int n){
 			s=n/i;
 			n/=s;
 			printf("%d\n",s);
-			asal++;
+			prime_number++;
 	}}
 	if(prime_number==1||prime_number==0)printf("prime_number\n");
 }
