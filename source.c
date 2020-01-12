@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
-void asal_carpan(int n){
+void prime_number_and_factorizing(int n){
 	int s,i,prime_number=0;
 	for(i=n-1;i>0;i--){
 		if((n%(i))==0){
@@ -18,6 +18,6 @@ int main() {
 	while(1){
 	printf("type num");
 	scanf("%d",&a);
-	asal_carpan(a);}
+	prime_number_and_factorizing(a);}
 	return 0;
 }
